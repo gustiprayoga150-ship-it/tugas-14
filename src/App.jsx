@@ -104,6 +104,11 @@ function App() {
                       <strong>Kota</strong>
                       <span>{user.address.city}</span>
                     </p>
+
+                    <p>
+                      <strong>Nomor Telepon</strong>
+                      <span>{user.address.zipcode}</span>
+                    </p>
                   </div>
                 </article>
               ))}
